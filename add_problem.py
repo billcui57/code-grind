@@ -30,3 +30,7 @@ mdFile.new_header(level=2, title='Description')
 mdFile.new_header(level=2, title='Solution Main Idea')
 
 mdFile.create_md_file()
+
+f = open("solution.py", "a")
+
+f.close()
