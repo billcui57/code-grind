@@ -1,4 +1,4 @@
-# maximum-subarray
+# Maximum Subarray
 
 ## Link
 
