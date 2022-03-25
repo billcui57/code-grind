@@ -1,4 +1,5 @@
 input-files:
+  - ./paradigms/DP.md
   - ./3sum/solution.md
   - ./best-time-to-buy-and-sell-stock/solution.md
   - ./climbing-stairs/solution.md

@@ -1,4 +1,5 @@
 # Code Grind
+
 This repo documents some of the competitive programming questions I have done.
 
 ## Setup
@@ -17,3 +18,7 @@ This repo documents some of the competitive programming questions I have done.
 ## I want to export all my questions' solution markdowns into a single markdown
 
       pandoc --defaults defaults.yaml -o result.md
+
+## I want to review a competitive programming paradigm
+
+Checkout paradigms
