@@ -1,7 +1,7 @@
 import argparse
 import os
 import mdutils
-
+import yaml
 
 # Initialize parser
 parser = argparse.ArgumentParser(description="Add template for a new problem")
@@ -34,3 +34,12 @@ mdFile.create_md_file()
 f = open("solution.py", "a")
 
 f.close()
+
+
+with open(os.path.join(cwd, "defaults.yaml"), 'r') as yamlfile:
+    cur_yaml = yaml.safe_load(yamlfile)  # Note the safe_load
+    cur_yaml['input-files'].append("./"+problemName+"/solution.md")
+
+if cur_yaml:
+    with open(os.path.join(cwd, "defaults.yaml"), 'w') as yamlfile:
+        yaml.safe_dump(cur_yaml, yamlfile)  # Also note the safe_dump

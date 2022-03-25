@@ -1,4 +1,4 @@
-# climbing-stairs
+# Climbing Stairs
 
 ## Link
 

@@ -1,0 +1,19 @@
+input-files:
+  - ./3sum/solution.md
+  - ./best-time-to-buy-and-sell-stock/solution.md
+  - ./climbing-stairs/solution.md
+  - ./clone-graph/solution.md
+  - ./coin-change/solution.md
+  - ./combination-sum-iv/solution.md
+  - ./contains-duplicate/solution.md
+  - ./decode-ways/solution.md
+  - ./find-minimum-in-rotated-sorted-array/solution.md
+  - ./house-robber/solution.md
+  - ./house-robber-2/solution.md
+  - ./jump-game/solution.md
+  - ./longest-increasing-subsequence/solution.md
+  - ./maximum-product-subarray/solution.md
+  - ./maximum-subarray/solution.md
+  - ./product-of-array-except-self/solution.md
+  - ./unique-paths/solution.md
+  - ./word-break/solution.md
