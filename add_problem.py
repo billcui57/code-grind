@@ -20,7 +20,7 @@ os.mkdir(path)
 
 os.chdir(path)
 
-mdFile = mdutils.MdUtils(file_name='solution')
+mdFile = mdutils.MdUtils(file_name='README')
 
 mdFile.new_header(level=1, title=problemName)
 mdFile.new_header(level=2, title='Link')
@@ -38,7 +38,7 @@ f.close()
 
 with open(os.path.join(cwd, "defaults.yaml"), 'r') as yamlfile:
     cur_yaml = yaml.safe_load(yamlfile)  # Note the safe_load
-    cur_yaml['input-files'].append("./"+problemName+"/solution.md")
+    cur_yaml['input-files'].append("./"+problemName+"/README.md")
 
 if cur_yaml:
     with open(os.path.join(cwd, "defaults.yaml"), 'w') as yamlfile:

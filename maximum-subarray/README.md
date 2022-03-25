@@ -20,8 +20,6 @@ A subarray is a contiguous part of an array.
 
 ## Solution Main Idea
 
-![Intuition](maximum-subarray.png)
-
 DP. Let local_max[i] be the biggest sum out of all possible subarrays that end at index i.
 
 local_max[i] = max(nums[i], local_max[i-1] + nums[i])
