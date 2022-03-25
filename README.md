@@ -21,4 +21,4 @@ This repo documents some of the competitive programming questions I have done.
 
 ## I want to review a competitive programming paradigm
 
-Checkout paradigms
+Checkout [./paradigms](README.md)
