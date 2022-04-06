@@ -1,20 +1,23 @@
 input-files:
-  - ./paradigms/DP.md
-  - ./3sum/README.md
-  - ./best-time-to-buy-and-sell-stock/README.md
-  - ./climbing-stairs/README.md
-  - ./clone-graph/README.md
-  - ./coin-change/README.md
-  - ./combination-sum-iv/README.md
-  - ./contains-duplicate/README.md
-  - ./decode-ways/README.md
-  - ./find-minimum-in-rotated-sorted-array/README.md
-  - ./house-robber/README.md
-  - ./house-robber-2/README.md
-  - ./jump-game/README.md
-  - ./longest-increasing-subsequence/README.md
-  - ./maximum-product-subarray/README.md
-  - ./maximum-subarray/README.md
-  - ./product-of-array-except-self/README.md
-  - ./unique-paths/README.md
-  - ./word-break/README.md
+- ./paradigms/DP.md
+- ./3sum/README.md
+- ./best-time-to-buy-and-sell-stock/README.md
+- ./climbing-stairs/README.md
+- ./clone-graph/README.md
+- ./coin-change/README.md
+- ./combination-sum-iv/README.md
+- ./contains-duplicate/README.md
+- ./decode-ways/README.md
+- ./find-minimum-in-rotated-sorted-array/README.md
+- ./house-robber/README.md
+- ./house-robber-2/README.md
+- ./jump-game/README.md
+- ./longest-increasing-subsequence/README.md
+- ./maximum-product-subarray/README.md
+- ./maximum-subarray/README.md
+- ./product-of-array-except-self/README.md
+- ./unique-paths/README.md
+- ./word-break/README.md
+- ./course-schedule/README.md
+- ./pacific-atlantic-water-flow/README.md
+- ./longest-consecutive-sequence/README.md
