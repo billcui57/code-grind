@@ -21,3 +21,8 @@ input-files:
 - ./course-schedule/README.md
 - ./pacific-atlantic-water-flow/README.md
 - ./longest-consecutive-sequence/README.md
+- ./insert-interval/README.md
+- ./reverse-linked-list/README.md
+- ./linked-list-cycle/README.md
+- ./merge-two-sorted-lists/README.md
+- ./merge-k-sorted-lists/README.md
