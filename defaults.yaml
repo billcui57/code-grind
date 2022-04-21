@@ -26,3 +26,7 @@ input-files:
 - ./linked-list-cycle/README.md
 - ./merge-two-sorted-lists/README.md
 - ./merge-k-sorted-lists/README.md
+- ./remove-nth-node-from-end-of-list/README.md
+- ./reorder-list/README.md
+- ./longest-substring-without-repeating-characters/README.md
+- ./valid-parentheses/README.md
