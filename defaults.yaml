@@ -30,3 +30,5 @@ input-files:
 - ./reorder-list/README.md
 - ./longest-substring-without-repeating-characters/README.md
 - ./valid-parentheses/README.md
+- ./longest-repeating-character-replacement/README.md
+- ./valid-anagram/README.md
