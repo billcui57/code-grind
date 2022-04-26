@@ -32,3 +32,7 @@ input-files:
 - ./valid-parentheses/README.md
 - ./longest-repeating-character-replacement/README.md
 - ./valid-anagram/README.md
+- ./group-anagrams/README.md
+- ./valid-palindrome/README.md
+- ./longest-palindromic-substring/README.md
+- ./palindromic-substrings/README.md
