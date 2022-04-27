@@ -36,3 +36,8 @@ input-files:
 - ./valid-palindrome/README.md
 - ./longest-palindromic-substring/README.md
 - ./palindromic-substrings/README.md
+- ./maximum-depth-of-binary-tree/README.md
+- ./same-tree/README.md
+- ./invert-binary-tree/README.md
+- ./binary-tree-maximum-path-sum/README.md
+- ./binary-tree-level-order-traversal/README.md
