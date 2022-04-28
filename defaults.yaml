@@ -44,3 +44,7 @@ input-files:
 - ./serialize-and-deserialize-binary-tree/README.md
 - ./subtree-of-another-tree/README.md
 - ./validate-binary-search-tree/README.md
+- ./kth-smallest-element-in-a-bst/README.md
+- ./lowest-common-ancestor-of-a-binary-search-tree/README.md
+- ./top-k-frequent-elements/README.md
+- ./find-medium-from-data-stream/README.md
