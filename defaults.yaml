@@ -48,3 +48,6 @@ input-files:
 - ./lowest-common-ancestor-of-a-binary-search-tree/README.md
 - ./top-k-frequent-elements/README.md
 - ./find-medium-from-data-stream/README.md
+- ./robot-bounded-in-circle/README.md
+- ./number-of-islands/README.md
+- ./bus-routes/README.md
