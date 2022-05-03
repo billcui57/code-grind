@@ -25,6 +25,8 @@ Return the least number of buses you must take to travel from source to target. 
 
 Use BFS.
 
+To fulfill time constraint:
+
 1. We do not want to go on the same bus more than once
 2. We do not want to go to the same station more than once (dealt with by visited set)
 
