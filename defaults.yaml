@@ -51,3 +51,5 @@ input-files:
 - ./robot-bounded-in-circle/README.md
 - ./number-of-islands/README.md
 - ./bus-routes/README.md
+- ./permutations-ii/README.md
+- ./find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/README.md
