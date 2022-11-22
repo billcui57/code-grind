@@ -17,3 +17,5 @@ DP is a mindset of partitioning/breaking the input up into subproblems that can 
 The hardest part of DP is finding that partition.
 
 When you try DP and find that subproblems are actually more complex than the current problem (given all the partitions that you can think of), then should consider BFS
+
+In context of arrays/strings, when building off of subproblems, you either build off the single subproblem directly before, or consider all subproblems before (and if that were the case sometimes binary search can help if things are sorted nicely).

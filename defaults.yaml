@@ -53,3 +53,8 @@ input-files:
 - ./bus-routes/README.md
 - ./permutations-ii/README.md
 - ./find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/README.md
+- ./balanced-binary-tree/README.md
+- ./diameter-of-binary-tree/README.md
+- ./middle-of-the-linked-list/README.md
+- ./maximum-profit-in-job-scheduling/README.md
+- ./perfect-squares/README.md

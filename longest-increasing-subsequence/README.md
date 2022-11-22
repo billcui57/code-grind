@@ -22,7 +22,7 @@ A subsequence is a sequence that can be derived from an array by deleting some o
 
 Let $A[i]$ denote the LIS that ends at index $i$.
 
-$$A[i] = max(A[j]+1: j<i, A[j]<A[i])$$
+$$A[i] = max(A[j]+1: j<i, N[j]<N[i])$$
 
 max over all $A[i]$'s
 
