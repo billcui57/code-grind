@@ -1,30 +1,40 @@
 class Solution:
-    def is_overlap(self, interval, newInterval):
-        return not (interval[0] > newInterval[1] or interval[1] < newInterval[0])
 
-    def insert(
-        self, intervals: List[List[int]], newInterval: List[int]
-    ) -> List[List[int]]:
+    def isOverlapping(self,intervala, intervalb):
+        return not (intervala[1] < intervalb[0] or intervala[0] > intervalb[1])
 
+    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
+        # degen case: intervals is empty
         if len(intervals) == 0:
             return [newInterval]
+
+        # case 1: newInterval appears before intervals
         if newInterval[1] < intervals[0][0]:
             intervals.insert(0, newInterval)
             return intervals
-        if intervals[-1][1] < newInterval[0]:
+        
+        # case 2: newInterval appears after intervals
+        if newInterval[0] > intervals[-1][1]:
             intervals.append(newInterval)
             return intervals
 
         result = []
-        start = None
-        end = None
         mergeMode = False
-
+        mergeIntervalStart = 0
+        mergeIntervalEnd = 0
+        # case 3: 
         for i in range(len(intervals)):
-            if not mergeMode:
-                if self.is_overlap(intervals[i], newInterval):
+            if self.isOverlapping(intervals[i], newInterval):
+                if mergeMode is True:
+                    continue
+                else:
+                    mergeIntervalStart = min(intervals[i][0], newInterval[0])
                     mergeMode = True
-                    start = min(intervals[i][0], newInterval[0])
+            else:
+                if mergeMode is True:
+                    mergeIntervalEnd = max(intervals[i-1][1], newInterval[1])
+                    result.append([mergeIntervalStart, mergeIntervalEnd])
+                    mergeMode = False
                 else:
                     if (
                         i > 0
@@ -32,15 +42,9 @@ class Solution:
                         and newInterval[1] < intervals[i][0]
                     ):
                         result.append(newInterval)
-                    result.append(intervals[i])
-            else:
-                if not self.is_overlap(intervals[i], newInterval):
-                    mergeMode = False
-                    end = max(newInterval[1], intervals[i - 1][1])
-                    result.append([start, end])
-                    result.append(intervals[i])
-
-        if mergeMode:
-            result.append([start, max(intervals[-1][1], newInterval[1])])
-
+                result.append(intervals[i])
+        if mergeMode is True:
+            mergeIntervalEnd = max(intervals[-1][1], newInterval[1])
+            result.append([mergeIntervalStart, mergeIntervalEnd])
         return result
+

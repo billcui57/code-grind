@@ -1,53 +1,53 @@
 class Solution:
 
-    def getAdj(self, numCourses, prereqs):
-        adj = {}
+    def createAdj(self, prereqs, numCourses):
+        
+        adj = dict()
+        for node in range(numCourses):
+            adj[node] = []
 
-        for i in range(numCourses):
-            adj[i] = []
 
-        for i in range(len(prereqs)):
-            start = prereqs[i][1]
-            end = prereqs[i][0]
-            adj[start].append(end)
-
+        for prereq in prereqs:
+            before, after = prereq
+            adj[before].append(after)
         return adj
 
-    def DFS(self, adj, node, permanent, nonPermanent, temp, top):
-
-        if node in temp:
-            raise Exception('not DAG')
-        if node in permanent:
+    def dfs(self,node, adj, seen, visited,unvisited,result):
+        
+        if node in seen:
+            raise Exception("not a DAG")
+        if node in visited:
             return
 
-        temp.add(node)
+        seen.add(node)
+        unvisited.remove(node)
+        visited.add(node)
+        
+        neighbours = adj[node]
+        for neighbour in neighbours:
+            self.dfs(neighbour, adj, seen, visited, unvisited, result)
+        
+        seen.remove(node)
+        result.append(node)
+        
 
-        for child in adj[node]:
-            self.DFS(adj, child, permanent, nonPermanent, temp, top)
 
-        temp.remove(node)
-        permanent.add(node)
-        nonPermanent.remove(node)
-        top.append(node)
+    def topologicalSort(self, adj):
+        unvisited = set(adj.keys())
+        visited = set()
+        result = []
+        print(unvisited)
+        try:
+            while len(unvisited) >0:
+                node = next(iter(unvisited))
+                self.dfs(node,adj,set(),visited, unvisited, result)
+        except Exception as e:
+            print("err:",e)
+            return False
+        print(result)
+        return True
 
-    def topologicalSort(self, adj, numCourses):
-        nonPermanent = set(list(range(numCourses)))
-        permanent = set()
-        temp = set()
-        top = []
-
-        while len(nonPermanent) > 0:
-            node = next(iter(nonPermanent))
-            self.DFS(adj, node, permanent, nonPermanent, temp, top)
-
-        return top
 
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-
-        adj = self.getAdj(numCourses, prerequisites)
-        print(adj)
-        try:
-            self.topologicalSort(adj, numCourses)
-            return True
-        except Exception as e:
-            return False
+        adj = self.createAdj(prerequisites, numCourses)
+        return self.topologicalSort(adj)

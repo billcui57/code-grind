@@ -58,3 +58,13 @@ input-files:
 - ./middle-of-the-linked-list/README.md
 - ./maximum-profit-in-job-scheduling/README.md
 - ./perfect-squares/README.md
+- ./first-bad-version/README.md
+- ./ransom-note/README.md
+- ./longest-palindrome/README.md
+- ./majority-element/README.md
+- ./add-binary/README.md
+- ./01-matrix/README.md
+- ./fastest-mode-of-transportation/README.md
+- ./k-closest-points-to-origin/README.md
+- ./evaluate-reverse-polish-notation/README.md
+- ./implement-trie-prefix-tree/README.md
