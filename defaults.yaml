@@ -87,3 +87,17 @@ input-files:
 - ./design-a-leaderboard/README.md
 - ./meeting-rooms-ii/README.md
 - ./number-of-ships-in-a-rectangle/README.md
+- ./search-in-rotated-sorted-array/README.md
+- ./lowest-common-ancestor-of-a-binary-tree/README.md
+- ./move-zeroes/README.md
+- ./lowest-common-ancestor-of-a-binary-tree-iii/README.md
+- ./word-break-ii/README.md
+- ./minimum-number-of-steps-to-make-two-strings-anagram/README.md
+- ./count-univalue-subtrees/README.md
+- ./integer-to-english-words/README.md
+- ./sequential-digits/README.md
+- ./kth-smallest-element-in-a-sorted-matrix/README.md
+- ./maximum-level-sum-of-a-binary-tree/README.md
+- ./number-of-times-binary-string-is-prefix-aligned/README.md
+- ./reorder-routes-to-make-all-paths-lead-to-the-city-zero/README.md
+- ./subarray-sum-equals-k/README.md

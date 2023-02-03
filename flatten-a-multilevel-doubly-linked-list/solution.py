@@ -30,7 +30,7 @@ class Solution:
                     node.next = temp
                     temp.prev = node
                 node.child = None
-              prevNode = child_end #we can avoid traversing through the list by jumping directly to the end of the child node
+                prevNode = child_end #we can avoid traversing through the list by jumping directly to the end of the child node
                 node = child_end.next
             else:
                 prevNode = node
