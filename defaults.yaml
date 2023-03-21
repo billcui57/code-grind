@@ -101,3 +101,17 @@ input-files:
 - ./number-of-times-binary-string-is-prefix-aligned/README.md
 - ./reorder-routes-to-make-all-paths-lead-to-the-city-zero/README.md
 - ./subarray-sum-equals-k/README.md
+- ./maximum-length-of-a-concatenated-string-with-unique-characters/README.md
+- ./minimum-time-to-make-rope-colorful/README.md
+- ./maximum-number-of-balloons/README.md
+- ./maximum-value-after-insertion/README.md
+- ./spiral-matrix-iii/README.md
+- ./find-winner-on-a-tic-tac-toe-game/README.md
+- ./find-n-unique-integers-sum-up-to-zero/README.md
+- ./minimum-changes-to-make-alternating-binary-string/README.md
+- ./maximal-network-rank/README.md
+- ./dot-product-of-two-sparse-vectors/README.md
+- ./minimum-deletions-to-make-character-frequencies-unique/README.md
+- ./largest-perimeter-triangle/README.md
+- ./minimum-path-sum/README.md
+- ./letter-combinations-of-a-phone-number/README.md
