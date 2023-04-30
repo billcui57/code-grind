@@ -1,5 +1,6 @@
 input-files:
 - ./paradigms/DP.md
+- ./paradigms/Graph.md
 - ./3sum/README.md
 - ./best-time-to-buy-and-sell-stock/README.md
 - ./climbing-stairs/README.md
@@ -115,3 +116,6 @@ input-files:
 - ./largest-perimeter-triangle/README.md
 - ./minimum-path-sum/README.md
 - ./letter-combinations-of-a-phone-number/README.md
+- ./minimum-cost-for-tickets/README.md
+- ./reducing-dishes/README.md
+- ./remove-max-number-of-edges-to-keep-graph-fully-traversable/README.md
