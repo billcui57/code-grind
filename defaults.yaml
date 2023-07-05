@@ -119,3 +119,6 @@ input-files:
 - ./minimum-cost-for-tickets/README.md
 - ./reducing-dishes/README.md
 - ./remove-max-number-of-edges-to-keep-graph-fully-traversable/README.md
+- ./average-salary-excluding-the-minimum-and-maximum-salary/README.md
+- ./sign-of-the-product-of-an-array/README.md
+- ./find-the-difference-of-two-arrays/README.md
