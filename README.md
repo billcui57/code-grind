@@ -1,5 +1,7 @@
 # Code Grind
 
+DEPRECATED! Moved to Obsidian
+
 This repo documents some of the competitive programming questions I have done.
 
 ## Setup
